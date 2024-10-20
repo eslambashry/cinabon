@@ -1,0 +1,29 @@
+<div id="header">
+    <div>
+        <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+        <ul id="navigation">
+            <li class="selected">
+                <a [routerLink]="['/home']">Home</a>
+            </li>
+            <li class="menu">
+                <a  [routerLink]="['/about']">About</a>
+                <ul class="primary">
+                    <li>
+                        <a [routerLink]="['/products']">Product</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu">
+                <a [routerLink]="['/blogs']">Blog</a>
+                <ul class="secondary">
+                    <li>
+                        <a [routerLink]="['/single-product']">Single post</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a [routerLink]="['/contact']">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
